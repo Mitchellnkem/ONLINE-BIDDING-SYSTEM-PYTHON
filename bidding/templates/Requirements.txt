@@ -1,0 +1,26 @@
+* Project title: Online Bidding System
+
+* Python version used : 3.7.4
+
+* Django version used : 3.0.3
+
+* Names of any other packages used and imported:
+
+	-	No other extra packages used.
+	-	installed pillow
+
+
+* List of requirements implemented :
+	* Login
+	* Register
+	* Forget Password
+	* Add items for auction
+	* Log
+	* My profile
+	* View items
+	*Bid items
+	* Future items
+	* Logout
+
+
+Note: - stay connected to the internet because we used some data from the internet
