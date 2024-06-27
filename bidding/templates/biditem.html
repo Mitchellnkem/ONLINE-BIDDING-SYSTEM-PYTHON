@@ -1,0 +1,87 @@
+
+
+<div class="container">
+	<center>
+		<table border="0">
+			<tr>
+				<td height="20px"></td>
+				<td height="20px"></td>
+			</tr>
+
+			<tr>
+				<td>Name :</td>
+				<td><b>{{item.name}}</b></td>
+			</tr>
+
+			<tr>
+				<td height="10px"><hr></td>
+				<td height="10px"><hr></td>
+			</tr>
+
+			<tr>
+				<td width="30%">Short Description :</td>
+				<td width="60%">{{item.short_description}}</td>
+			</tr>
+
+			<tr>
+				<td height="10px"><hr></td>
+				<td height="10px"><hr></td>
+			</tr>
+
+			<tr>
+				<td>Long Description :</td>
+				<td>{{item.long_description}}</td>
+			</tr>
+
+			<tr>
+				<td height="10px"><hr></td> 
+				<td height="10px"><hr></td> 
+			</tr>
+
+			<tr>
+				<td>Base Price :</td>
+				<td>{{item.basePrice}}</td>
+			</tr>
+
+			<tr>
+				<td height="10px"><hr></td>
+				<td height="10px"><hr></td>
+			</tr>
+
+			<tr>
+				<td>Current Price :</td>
+				<td>{{item.currentPrice}}$</td>
+			</tr>
+
+			<tr>
+				<td height="10px"><hr></td>
+				<td height="10px"><hr></td>
+			</tr>
+
+			<tr>
+				<td>Profile image :</td>
+				<td><img src="{{item.profile.url}}" height="300" width="400" alt=""></td>
+			</tr>
+
+			<tr>
+				<td height="10px"></td>
+				<td height="10px"></td>
+			</tr>
+
+			<tr>
+				<td>{%if item.img1} <img src= {{item.img1.url}} height="300" width="400" alt=""> </td> {%end if%}
+				<td>{%if item.img2} <img src= {{item.img2.url}} height="300" width="400" alt=""> </td> {%end if%}
+			</tr>
+
+			<tr>
+				<td height="10px"></td>
+				<td height="10px"></td>
+			</tr>
+
+			<tr>
+				
+			</tr>
+
+		</table>
+	</center>
+</div>
