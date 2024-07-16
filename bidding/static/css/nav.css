@@ -9,7 +9,7 @@ h4{
 
 .hhhh{
     font: 400 1em/1.5 "Neuton"; 
-    background: #090d00; 
+    background:  #36454f; 
     box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.719);
     
     color: rgba(255,255,255,.25); 
@@ -103,9 +103,9 @@ table {
        -moz-appearance: none;
             appearance: none; */
     background-color: transparent;
-    border: 2px solid #e74c3c;
+    border: 2px solid tomato;
     border-radius: 0.0em;
-    color: #e74c3c;
+    color: tomato;
     cursor: pointer;
     display: -webkit-box;
     display: -webkit-flex;
@@ -190,7 +190,7 @@ table {
     top: 187px;
 	height: 90px;
 	border: #2c3e50;
-	box-shadow: 0 0px 8px 4px rgba(0, , 0, 0.719);
+	box-shadow: 0 0px 8px 4px rgba(0, 0, 0.719);
     z-index: 1;
 }
 
@@ -270,7 +270,7 @@ table {
 }
 
 .container h2{
-    background: #462780;
+    background: #774fc1;
     
     color: #fff;
     width: 200px;
